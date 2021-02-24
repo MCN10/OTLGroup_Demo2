@@ -22,7 +22,7 @@ SECRET_KEY = '7sq7&)*ais543thy)ee69l$1)5w!24goz+24g9c8rit#sazhs)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["3rdaxis.co.za"]
 
 
 # Application definition
