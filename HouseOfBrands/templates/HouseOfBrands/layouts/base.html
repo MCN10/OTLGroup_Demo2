@@ -1,0 +1,79 @@
+<!--
+=========================================================
+* * Black Dashboard - v1.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/black-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Static assets -->
+{% load static %}
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>OTL | House Of Brands </title>
+  <meta name="description" content="House of Brands" />
+  <meta name="keywords" content="OTL House Of Brand specializes in a variety of products ranging from: Disney Frame for kids, Cross Reader, TED Lepidus Perfume and various other optical accessories." />
+  <meta name="author" content="3rd Axis by Mufudzi Christopher" />
+  <link rel="shortcut icon"href="{% static 'images/0.png' %}">
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+  <!-- Nucleo Icons -->
+  <link href="{% static 'assets/css/nucleo-icons.css' %}" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="{% static 'assets/css/black-dashboard.css' %}" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="{% static 'assets/demo/demo.css' %}" rel="stylesheet" />
+
+  <!-- Specific Page CSS goes HERE  -->
+  {% block stylesheets %}{% endblock stylesheets %}
+
+</head>
+
+<body class="">
+  <div class="wrapper">
+
+    {% include 'HouseOfBrands/includes/sidebar.html' %}
+
+    <div class="main-panel">
+
+      {% include 'HouseOfBrands/includes/navigation.html' %}
+
+      <div class="content">
+
+        {% block content %}{% endblock content %}
+
+      </div>
+
+      {% include 'HouseOfBrands/includes/footer.html' %}
+
+    </div>
+
+  </div>
+
+  {% include 'HouseOfBrands/includes/fixed-plugin.html' %}
+
+  {% include 'HouseOfBrands/includes/scripts.html' %}
+
+  {% include 'HouseOfBrands/includes/scripts-sidebar.html' %}
+
+  <!-- Specific Page JS goes HERE  -->
+  {% block javascripts %}{% endblock javascripts %}
+
+</body>
+
+</html>

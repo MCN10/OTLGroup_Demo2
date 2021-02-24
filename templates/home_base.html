@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OTL - Optic Trade Links</title>
+	<meta name="description" content="Manufacturers of Optical Trade Products" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="3rd Axis by Mufudzi Christopher" />
+	<link rel="shortcut icon"href="{% static 'images/0.png' %}">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'home_page/css/demo.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'home_page/css/component.css' %}" />
+	<script src="{% static 'home_page/js/modernizr-custom.js' %}"></script>
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="pages-nav">
+		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
+    <div class="pages-nav__item"><a class="link link--page" href="#otl">Optic Trade Links</a></div>
+    <div class="pages-nav__item"><a class="link link--page" href="#ntv">New Twinkle Vision</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#osp">Optical Spares</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#hoh">House Of Brands</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#llc">Lens Lab (Coming Soon)</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-buy">Where to buy</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Blog &amp; News</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">Contact</a></div>
+		<div class="pages-nav__item pages-nav__item--social">
+			<a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+			<a class="link link--social link--faded" href="#"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+		</div>
+	</nav>
+	<!-- /navigation-->
+	<!-- pages stack -->
+	<div class="pages-stack">
+		<!-- page -->
+		<div class="page" id="page-home">
+			<!-- Blueprint header -->
+			<header class="bp-header cf">
+				<!-- <span class="bp-header__present">Welcome to</span>
+				<h1 class="bp-header__title">Optic Trade Links Group</h1>
+				<p class="bp-header__desc"></p> -->
+
+<!--
+				<nav class="bp-nav">
+					<a class="bp-nav__item bp-icon bp-icon--prev" href="http://tympanus.net/Blueprints/ZoomSlider/" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+					<a class="bp-nav__item bp-icon bp-icon--drop" href="http://tympanus.net/codrops/?p=25311" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+					<a class="bp-nav__item bp-icon bp-icon--archive" href="http://tympanus.net/codrops/category/blueprints/" data-info="Blueprints archive"><span>Go to the archive</span></a>
+				</nav>
+-->
+			</header>
+      <!-- <img class="" src="{% static 'home_page/images/1.png' %}" alt="img01" />
+      <img class="" src="{% static 'home_page/images/2.png' %}" alt="img01" />
+      <img class="" src="{% static 'home_page/images/3.png' %}" alt="img01" />
+      <img class="" src="{% static 'home_page/images/4.png' %}" alt="img01" /> -->
+      <br>
+      <div style="margin-left: 10%;">
+      <a href="{% url 'opticTradeLinks:store' %}" ><img class="" src="{% static 'home_page/images/1.jpg' %}" alt="img01" /></a>
+      <a href="{% url 'houseOfBrands:store' %}" ><img class="" src="{% static 'home_page/images/2.jpg' %}" alt="img01" /></a>
+      <a href="{% url 'opticalSpares:store' %}" ><img class="" src="{% static 'home_page/images/3.jpg' %}" alt="img01" /></a>
+      <a href="{% url 'newTwinkleVision:store' %}" ><img class="" src="{% static 'home_page/images/4.jpg' %}" alt="img01" /></a>
+
+      </div>
+      <!-- <br>
+      <img class="" src="{% static 'home_page/images/11.png' %}" alt="img01" />
+      <img class="" src="{% static 'home_page/images/22.png' %}" alt="img01" />
+      <img class="" src="{% static 'home_page/images/33.png' %}" alt="img01" />
+      <img class="" src="{% static 'home_page/images/44.png' %}" alt="img01" />
+      <br>
+            <img class="" src="{% static 'home_page/images/111.png' %}" alt="img01" />
+            <img class="" src="{% static 'home_page/images/222.png' %}" alt="img01" />
+            <img class="" src="{% static 'home_page/images/333.png' %}" alt="img01" />
+            <img class="" src="{% static 'home_page/images/444.png' %}" alt="img01" /> -->
+		</div>
+		<!-- /page -->
+    <div class="page" id="otl">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Optic Trade Links</h1>
+				<p class="bp-header__desc">Manufacturers of Optical Product</p>
+
+				<a href="{% url 'opticTradeLinks:store' %}" >	<img class="" src="{% static 'home_page/images/1.jpg' %}" alt="img06" /></a>
+
+				<p class="info">
+Optic Trade Links specializes in a variety of products ranging from: Optical Cases, Microfiber Cloths, Optical Spare Parts, Optical Fitting Kit and various other optical accessories.				</p>
+			</header>
+      			  <a href="{% url 'home:home' %}" title="Online Store"><img class="poster" src="{% static 'home_page/images/0.png' %}" alt="img04" /></a>
+
+		</div>
+
+    <div class="page" id="ntv">
+  			<header class="bp-header cf">
+					<h1 class="bp-header__title">NEW TWINKLE VISION</h1>
+					<br>
+
+				  <a href="{% url 'opticTradeLinks:store' %}" title="Online Store">	<img class="" src="{% static 'home_page/images/4.jpg' %}" alt="img04" /></a>
+					<br>
+
+
+					<p class="info">
+						New Twinkle Vision started with a unique and humble start. It was started to the very cry and need from the optometrist and the consumers for good quality at an affordable price contact lenses in the market. It had been launched with just 5 basic and popular colors in March 2005. With the excellent service and dedication the range has exceptionally increased to 15 colors.
+					</p>
+
+  			</header>
+
+				<a href="{% url 'home:home' %}" ><img class="poster" src="{% static 'home_page/images/0.png' %}" alt="img06" /></a>
+  		</div>
+		<div class="page" id="osp">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">OPTICAL SPARES</h1>
+				<p class="bp-header__desc">Suppliers of Optical Spares</p><br>
+				<a href="{% url 'opticalSpares:store' %}" >	<img class="" src="{% static 'home_page/images/3.jpg' %}" alt="img02" /></a><br>
+				<p class="info">
+				We specialize in a variety of Nose Pads, Screws, Pliers, Tool Kits and other spares and accessories required for the maintenance and repair of spectacle frames.
+			</p>
+			</header>
+      <img class="poster" src="{% static 'home_page/images/0.png' %}" alt="img04" />
+
+		</div>
+		<div class="page" id="hoh">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">HOUSE OF BRANDS</h1><br>
+				<a href="{% url 'houseOfBrands:store' %}" >	<img class="" src="{% static 'home_page/images/2.jpg' %}" alt="img03" /></a><br>
+
+				<p class="info">OTL House Of Brand specializes in a variety of products ranging from: Disney Frame for kids, Cross Reader, TED Lepidus Perfume and various other optical accessories.</p>
+			</header>
+      <img class="poster" src="{% static 'home_page/images/0.png' %}" alt="img04" />
+
+		</div>
+		<div class="page" id="llc">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">LENS LAB</h1>
+				<p class="bp-header__desc">Coming Soon</p>
+				<p class="info">
+					"You have to make a conscious decision to change for your own well-being, that of your family and your country." &mdash;Bill Clinton
+				</p>
+				<img class="" src="{% static 'home_page/images/55.png' %}" alt="img04" />
+
+			</header>
+      <a href="{% url 'home:home' %}" ><img class="poster" src="{% static 'home_page/images/0.png' %}" alt="img04" /><a>
+		</div>
+
+	</div>
+	<!-- /pages-stack -->
+	<button class="menu-button"><span>Menu</span></button>
+	<script src="{% static 'home_page/js/classie.js' %}"></script>
+	<script src="{% static 'home_page/js/main.js' %}"></script>
+</body>
+
+</html>
